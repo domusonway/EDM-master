@@ -1,6 +1,6 @@
 
 # EDM: ED_lib + Mergeline for edge detection
-&emsp;&emsp;Use C++ rewrite 'merge' part of algorithm 'LSM', original 'LSM' algorithm write by matlab, speed too slow, this algorithm compatible 'LSD' and 'EDLine' algorithm output pointset to merge lines. 
+&emsp;&emsp;Use C++ rewrite 'merge' part of algorithm 'LSM', original 'LSM' algorithm write by matlab, speed too slow, this algorithm compatible 'LSD' and '[EDLine](https://github.com/CihanTopal/ED_Lib)' algorithm output pointset to merge lines. 
 
 ## Abstract
 &emsp;&emsp;Existing line segment detectors tend to break up perceptually distinct line segments into multiple segments. We propose an algorithm for merging such broken segments to recover the original perceptually accurate line segments. The algorithm proceeds by grouping line segments on the basis of angular and spatial proximity. Then those line segment pairs within each group that satisfy novel, adaptive mergeability criteria are successively merged to form a single line segment. This process is repeated until no more line segments can be merged. 
